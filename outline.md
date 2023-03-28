@@ -1,7 +1,6 @@
 ### Ansible Basic - Course
 # Outline Materi
 - Introduction Course
-- Introduction Configuration Management Tools​
 - Introduction Ansible​
 - Install Ansible & Setup Lab​
 - Introduction to YAML​
