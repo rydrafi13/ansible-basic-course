@@ -5,7 +5,7 @@
 - Install Ansible & Setup Lab​
 - Introduction to YAML​
 - Inventory Files​
-- Ansible ad-hoc command​
+- Ansible Ad-hoc command​
 - Ansible Playbook​
 - Ansible Variables​
 - Ansible Facts​
