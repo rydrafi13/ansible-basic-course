@@ -3,7 +3,7 @@
 10.23.0.12
 
 [ubuntu]
-vm-ubuntu ansible_host=10.23.0.11
+vm-ubuntu ansible_host=10.23.0.11 ansible_connection=ssh ansible_user=idn ansible_ssh_password=idnmantab
 
 [centos]
-vm-centos ansible_host=10.23.0.12
+vm-centos ansible_host=10.23.0.12 ansible_connection=ssh ansible_user=idn ansible_ssh_password=idnmantab
