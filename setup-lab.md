@@ -1,5 +1,5 @@
-### Setup Lab
-# Setup Ansible VM
+# Setup Lab
+### Setup Ansible VM
 Preinstall 'ansible' host.
 - Change to root user
 ```
@@ -40,7 +40,7 @@ apt update -y && apt upgrade -y
 ```
 apt install ansible
 ``` 
-# Setup vm-ubuntu
+### Setup vm-ubuntu
 Preinstall 'ubuntu' host.
 - Change to root user
 ```
@@ -77,7 +77,7 @@ netplan apply
 ```
 apt update -y && apt upgrade -y
 ``` 
-# Setup vm-centos
+### Setup vm-centos
 Preinstall 'centos' host.
 - Change to root user
 ```
@@ -100,7 +100,7 @@ nmtui
 yum update -y && yum upgrade -y
 ``` 
 
-# SSH Checking
+### SSH Checking
 On all managed server check ssh service
 ```
 systemctl status sshd
