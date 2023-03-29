@@ -1,9 +1,4 @@
-[allserver]
 10.23.0.11
 10.23.0.12
-
-[ubuntu]
 vm-ubuntu ansible_host=10.23.0.11
-
-[centos]
 vm-centos ansible_host=10.23.0.12

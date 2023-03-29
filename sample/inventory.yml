@@ -1,0 +1,12 @@
+allserver:
+  hosts:
+    10.23.0.11:
+    10.23.0.12:
+ubuntu:
+  hosts:
+    vm-ubuntu:
+      ansible_host: 10.23.0.11
+centos:
+  hosts:
+    vm-centos:
+      ansible_host: 10.23.0.12
